@@ -1,74 +1,67 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# Dynamic Profile Cards
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React-based Dynamic Profile Cards Application**  
+A simple, interactive, and theme-adaptive user profile card interface._
 
-## Available Scripts
 
-In the project directory, you can run:
+## Project Overview
 
-### `npm start`
+The **Dynamic Profile Cards** project is a React application designed to display multiple user profiles dynamically with interactive features. Users can **follow/unfollow profiles**, **search profiles by name**, and **toggle between light and dark mode**.  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This project demonstrates the use of **React components, state management, props, conditional rendering**, and basic UI theming.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Folder Structure
+react-profile-cards/
+│
+├── public/             # Static files
+├── src/
+│   ├── components/     # ProfileCard.js
+│   ├── data.js         # Profiles data
+│   ├── App.js
+│   └── App.css
+├── .gitignore
+└── package.json
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Dynamic Profile Rendering:** Displays user cards with avatar, name, and bio from a data array.  
+- **Follow / Unfollow:** Toggle user follow status dynamically.  
+- **Search:** Real-time filtering of profiles by name.  
+- **Dark / Light Mode:** Switch UI theme with a button.  
+- **Responsive Design:** Works well on different screen sizes.  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Tech Stack
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Frontend: React.js  
+- Styling: CSS (Light & Dark themes)  
+- Data Handling: React `useState` and `useEffect` Hooks  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Installation & Setup
 
-## Learn More
+1. Clone the repository:  
+```bash
+git clone https://github.com/zunairahmed08/react-profile-cards.git
+cd react-profile-cards
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Install dependencies:
+npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Run the project locally
+npm start
 
-### Code Splitting
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Use the search bar to filter profiles by name.
 
-### Analyzing the Bundle Size
+Click Follow / Unfollow to toggle follow status.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Click Dark Mode / Light Mode to toggle UI theme.
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# react-profile-cards
->>>>>>> fa76409a71861a9c11e23ef2fefad181fdd24920
